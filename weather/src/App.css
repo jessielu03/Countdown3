@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.searchBar {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.searchBar .search {
+  display: block;
+  width: 50%;
+  padding: 5px;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+.searchBar .city {
+  display: block;
+  width: 50%;
+  padding: 5px;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
+.searchBar .zipcode {
+  display: block;
+  width: 50%;
+  padding: 5px;
+  background-color: rgba(225, 225, 225, 0.5);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +61,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  color:blue
 }
